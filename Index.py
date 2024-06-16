@@ -1,3 +1,5 @@
+# =====================02/04/2024========
+
 # mylist = ["a","b","c","d","e","f"]
 # mylist2 =[1,2,3,4]
 
@@ -16,7 +18,6 @@
 
 
 # print(list())
-
 
 # =====================03/04/2024========
 
@@ -38,11 +39,9 @@
 # for i in range(i,101,5):
 #     print(i)
 
-
 # str1.split()
 
 # print(len(str2.split(",",3)))
-
 
 # =====================08/04/2024========
 
@@ -55,7 +54,6 @@
 #         print(x[i][j],end=" ")
 #     print()    
     
-
 # ============================09/04/2024=========
 
 # x = ("jghkjhg",)
@@ -99,13 +97,11 @@
 #     print(i)
 # print(x[3][2])
 
-
 # y =[1,3,6,3,3,3,3]
 # z =[1,3,6,76,3,3,3,3]
 
 # x = ["a","b","c"]
 # print("d" not in x)
-
 
 # y = ["a","b","c"]
 # z = ["A","B","C"]
@@ -113,8 +109,6 @@
 # print(x >= z)
 # print(x == z)
 # print(y != x)
-
-
 
 # mylist2 =[545,7545,54534,5454]
 
@@ -129,7 +123,6 @@
 
 # print(mylist)
 # print(x)
-
 
 # print(max(mylist))
 # print(min(mylist))
@@ -198,7 +191,6 @@
 # array = [10, 20, 30, 40, 50]
 # print(binary(array,60))
 
-
 # =======================15/04/2024===============
 
 # dec1 = {
@@ -221,7 +213,6 @@
 # print(dec1 == dec2)
 # print(dec1.keys())
 # print(dec1.values())
-
 
 # dect = {x : x*x for x in range(1,11)}
     
@@ -271,7 +262,6 @@
 
 # hello()
 
-
 # def is_even(x):
 #    if( x % 2 == 0):
 #        print("Number is Even")
@@ -279,10 +269,6 @@
 #        print("Number Is Odd")
 
 # is_even()
-
-
-
-
 
 # ======================18/04/2024==========
 
@@ -292,9 +278,7 @@
 # num()
 # print()
          
-
 # mylist=[10,34,54,95,434,343,994]
-
 
 # x = lambda y:y%2==0
 # num=int(input("Enter A Number : "))
@@ -316,14 +300,10 @@
 # else:
 #     print(num, "is an odd number.")
 
-
-
-
 # def even(x):
 #     return x%2==0  
 
 # even_num =  list(filter(even,mylist))  
-
 
 # def calc(a,b):
 #     u = a+b
@@ -335,7 +315,6 @@
 # sum,sub,mul,div = calc()
 # print(div)
 
-
 # def tplfun(*a):
 #     return a
 
@@ -343,23 +322,17 @@
 # print(w)
 # print(type(w))
 
-
-
-
 # def sum(a,b):
 #     """ In this function do sum two value, 
 #     function name is sum 
 #     and  given tow arguments first a and 2nd b """
 #     return a + b
     
-
-
 # x = int(input("Enter A number : "))
 # y = int(input("Enter A number : "))
 # print(sum(x,y))
 
 # help(sum)
-
 
 # x = 10
 # def num():
@@ -373,8 +346,6 @@
 #     return
 # num()
 
-
-
 # def about(name,age,higth,surname):
 #     print("my name is  : ",name)
 #     print("my age is :",age)
@@ -383,8 +354,6 @@
 #     # return
 
 # about("balvinder",21,5.6,"kumar")
-
-
 
 # =======================22/04/2024================
 
@@ -395,7 +364,6 @@
 #     return
 # num()
 # print(x)
-
 
 # def num(a,b):
 #     """ 
@@ -411,17 +379,11 @@
 # print(num(10,20))
 # help(num)
 
-
 # def num(a,b="@gmail.com"):
 #     return a + b
 
 # print(num("hello123"))
  
-
-
-
-
-
 # ========================13/05/2024==========
 #(*n)
 
@@ -447,8 +409,6 @@
 #     return n
 # print(str(a=10,b=20))
 
-
-
 # ========================14/05/2024===============
 
 # def myfun(n,*s):
@@ -465,11 +425,9 @@
 # y = float(10)
 # print(is_even(y))
 
-
 # y = lambda a : a%2==0     
 # a = 11
 # print(y(a))
-
 
 # x = 12
 # print(eval("20+56"))
@@ -478,7 +436,6 @@
 
 # y = x.count("the")
 # print(y)
-
 
 # y = x.find("the")
 # y = x.rfind("the")
@@ -494,8 +451,6 @@
 # y = a.isupper()
 
 # print(y)
-
-
 
 # ========================15/05/2024=======
 
@@ -551,9 +506,6 @@
 # ascii
 # print(y)
 
-
-
-
 # str = "Python"
 # print("o" not in str)
 
@@ -582,9 +534,7 @@
 
 # print(x[y])
 
-
 # ================22/05/2024==================
-
 
 # import re
 # x = "Hello welnconme in python the"
@@ -600,7 +550,6 @@
 # y = re.findall("He.+n",x)
 # y = re.findall("He.{67}e",x)
 
-
 # print(y)
 # if y:
 #   print("Yes, string matching pattern")
@@ -608,7 +557,6 @@
 #   print("No match")
 # print(len(y))
 # print(type(y))
-
 
 # =================23/05/2024===================
 
@@ -652,7 +600,6 @@
 # print(int(x))
 # print(type(int(x)))
 
-
 # print(pow(2,3))
 
 # import math
@@ -675,7 +622,6 @@
 
 # print(math.factorial(x))
 
-
 # print(math.gcd(15,45))
 
 # x = 25 
@@ -691,14 +637,9 @@
 # print(random.random())
 # print(random.randrange(1,16,3))
 
-
-
-
 # Python3 program to demonstrate fmod() function
 
 # import math
-
-
 
 # modulus of +ve integer number
 # print(math.fmod(4, 5))
@@ -775,7 +716,6 @@ from datetime import date
 
 # file.close()
 
-
 # file = open("newfile.txt","r+")
 
 # file_read = file.write("hello new data")
@@ -799,8 +739,6 @@ from datetime import date
 # print(file_read)
 
 # file.close()
-
-
 
 # ===============================04/06/2024===============
 
