@@ -1,134 +1,159 @@
 import numpy as np
 
-# x = np.array([[1,2,3],[4,5,6]])
+# # y = [67,8,809,8]
+# # print(y*3)
+
+# x = np.array([1,2,3,4] ,dtype=float)
+
+# x = np.empty([3,2], dtype=int)
+
+# x = np.zeros((2,2))
 # print(x)
-# print(x.shape)
 
-# x.shape = (3,2)
+# x = np.array([(1,3,4),(2,3,4),(2,4,7),(6,8,9)])
+
 # print(x)
-# print(x.shape)
-# print(x.reshape(3,2))
+# # x.shape = (3,2)
 
-# a = np.arange(12)
-
-
-# a = np.arange(2,22,2)   
-
-# print(a)
+# print(x.reshape(6,2))
+# print(x)
 
 
-# x = np.array([1,2,3,4,5], dtype=np.int8)
-# x = np.array([1,2,3,4,5], dtype=np.float32)
+# print(x)
+# print(type(x))
+# print(len(x))
 
-# print(x.itemsize)
+# x = np.array([(1,2,3),(4,5,6),("w","f")])
 
-# x  = np.array([1,2,3,4])
+
+# x = np.arange(1,20,3)
+# print(x)
+
+
+# x = np.array([10,20,30,40,50])
 # print(x.flags)
-# x  = np.empty([3,3],dtype=int)
 
+# x = np.empty([3,3], dtype=int)
 
-# x  = np.eye(6,dtype=int) 
-# x  = np.eye(6,k=1) 
+# x = np.eye(3,dtype=int)
 
-# x  = np.identity(3,dtype=int) 
-# x  = np.identity(3) 
-# x  = np.zeros((2,2),dtype=int) 
-# x  = np.ones((2,2)) 
-
-# x = np.full((2,2),np.inf)
-# x = np.full((2,2),22)
-
+# x = np.eye(5, k=1)
 
 # print(x)
 
-# mylist = [[1,2,3],[4,5,6],[7,8,9]]
-# # mylist = (1,2,3,4,5,6,7,8,9)
+# b = np.eye(2, dtype = float)
+# print("Matrix b : \n", b)
+ 
+# matrix with R=4 C=5 and 1 on diagonal
+# below main diagonal
+# a = np.eye(4, 5, k = -1)
+# print("\nMatrix a : \n", a)
+
+# mylist = [1,3,4,5,6,7,4]    
+# mylist = (1,3,4,5,6,7,4)
 
 # print(type(mylist))
 
 # x = np.asarray(mylist)
 
-# print(x)
+# print(type(x))
 
-# m = np.asmatrix(x)
-# print(m)
-# x[2,1] = 50 
-# print(m)
+
+# arr = np.array([[1,2,3],[4,5,6]])
+
+# print(arr)
+
+# mx = np.asmatrix(arr)
+
+# arr[1,2] = 10
+
+# print(mx)
+
+
+# str = b'hellopython'
+
+# print(str)
+
+# print(type(str))
+
+# x = np.frombuffer(str, dtype="S1",count=5,offset=3)
 
 # print(x)
+# print(type(x))
+
+# list = range(10)
+# x = iter(list)
 
 # print(type(x))
 
-# l = b'eisbalvindr'
+# a = np.fromiter(x,dtype=int)
 
-# print(type(l))
+# print(a) 
 
-# a = np.frombuffer(l,dtype="S1",count=3,offset=10)
-# print(a)
-# print(type(a))
-# print(len(a))
+# a = 10
+# b = a
+# c = b
 
 
-# x = np.array([1,2,3])
+# x = np.array([1,2,3,4])
 # y = x
-# z = np.copy(x)
+# z = np.copy(x)   
 
-# x[0] = 10
+# x[0] = 10 #[10,2,3,4]
 
-# print(x)
-
-# print(x[0] == y[0])
-# print(x[0] == z[0])
-
-# a = np.arange(1,10,2,int)
-# a = np.linspace(10,20,endpoint=False)
-
-# print(len(a))
-# print(a[6])
+# print(x[0] == y[0]) 
+# print(x[0] == z[0]) 
 
 
-# x = np.logspace(10,20,num = 10, endpoint = True)
+# a = np.arange(1,20,2,int)
 
-# print(x)
-
-# a = np.array([1,2,3,4,5,6,7,8,9])
-
-# print(a[::])
-
-
-# a = np.array([[1,20],[0,40],[2,60]])
-
-# bin = (a > 10)
-
-# print(bin)
-# print(a[bin])
-# print(a[a>2])
-
-# a = np.array([1,2,3])
-# b = np.array([3,5,6])
-# a = np.array([[3,5],[3,4]])
-# b = np.array([[5,6],[1,9]])
-# arr = np.concatenate((a,b))
-
-# arr1 = np.stack((a,b), axis=1)
-# arr2 = np.hstack((a,b))
-# arr3 = np.vstack((a,b))
-
-# print(arr1)
-# print(arr2)
-# print(arr3)
-
-
-# a = np.logspace(10,20,num=5,endpoint=True)
+# a = np.linspace(1,20 ,15, endpoint=False) 
+# b = np.linspace(1,20 ,10, endpoint=True)  
 
 # print(a)
-
-# b = np.logspace(10,20,num=5,endpoint=False)
-
+# print("===========================")
 # print(b)
 
-arr = np.array([1,2,3,4,5,6,7,8,9])
+# a = np.logspace(1,20,num=5,base=3)
 
-ary = np.array_split(arr,3)
+# print(a)
 
-print(ary)
+
+# a1 = np.array([1,2,3])
+# a2 = np.array([4,5,6])
+# a3 = np.array([7,8,9])
+# a4 = np.array([7,8,9])
+
+
+# arr = np.stack((a1,a2,a3)) #0 or 1
+# arr = np.hstack((a1,a2,a3)) #0 or 1
+
+
+# arr = np.vstack((a1,a2,a3,a4)) #0 or 1
+
+# print(arr)
+
+
+# x = np.concatenate((a1,a2,a3))
+
+# print(x)
+
+# a = np.array([[1,2,3],[4,5,6,],[7,8,9]])
+
+# print(a[1:5])
+# print(a[1,0],a[0,2],a[2,2])
+# print(a > 5)
+
+
+# arr = np.array([1,2,3,4,5,6,7,8,9,1,6])
+
+# newarr = np.array_split(arr,3)
+
+# print(newarr)
+
+
+a1 = np.array([[1,2,3],[2,3,4]])
+# a2 = np.array([4,5,6])
+
+# print(a1 + a2)
+print(sum(a1))
