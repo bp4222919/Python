@@ -768,12 +768,31 @@ from datetime import date
 
 # ===============================05/06/2024===============
 
-lang = ["python","HTMl","java","c++","hello","CSS"] 
-with open("list.txt" , "w") as mylist:
-    for i in lang:
-        mylist.write(f" {i} \n")
+# lang = ["python","HTMl","java","c++","hello","CSS"] 
+# with open("list.txt" , "w") as mylist:
+#     for i in lang:
+#         mylist.write(f" {i} \n")
 
-dis = open("list.txt","r") 
-print(dis.read())  
+# dis = open("list.txt","r") 
+# print(dis.read())  
 
-dis.close()
+# dis.close()
+
+# ==========================03/07/2024=========================
+#write a python function that tackes two lists and returns True  if they have at lest one common item.
+
+def have_common_item(list1, list2):
+    # Convert one of the lists to a set for efficient lookup
+    set1 = set(list1)
+    
+    # Iterate through the second list and check for common items
+    for item in list2:
+        if item in set1:
+            return True
+    return False
+
+# Example usage
+list1 = [1, 2, 3, 9]
+list2 = [4, 5, 6, 7]
+
+print(have_common_item(list1, list2))  # Output: True
